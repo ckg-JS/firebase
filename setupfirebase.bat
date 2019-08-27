@@ -16,10 +16,13 @@ rem git remote add origin
 if "%1" == "update" ( 
     
     git add .
+    git rm --cached album.bak
     git commit -m %USERNAME%
     git push origin %BRANCH%
     
 )  else (
+    move album album.bak
+
     git pull origin master
 
     git checkout -b %BRANCH%
