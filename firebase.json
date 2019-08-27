@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "album",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
