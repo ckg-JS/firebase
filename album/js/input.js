@@ -1,8 +1,8 @@
 window.addEventListener(
     'DOMContentLoaded',
     function(){
-        let item = document.getElementById('cancel');
-        item.addEventListener(
+        let mycancel = document.getElementById('cancel');
+        mycancel.addEventListener(
             'click',
             function(){
                 location.href = "index.html";
